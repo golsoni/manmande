@@ -1,0 +1,32 @@
+baseURL = "https://manmande.pages.dev/"
+languageCode = "zh-cn"
+title = "慢慢懂得生活"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = {
+    Title = "慢慢懂得生活"
+    Content = "记录点点滴滴，留下满满的回忆。"
+  }
+  avatarURL = "avatar.jpg"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
